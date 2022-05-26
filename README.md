@@ -14,7 +14,8 @@ interface IRacing{
 
 그리고 RacingCar를 상속받은 RacingCarV2 클래스에서 일부 동작이 다른 함수만 Overriding하여 구현한다.
 ``` Java
-RacingCarV2public class RacingCarV2 extends RacingCar{
+
+public class RacingCarV2 extends RacingCar{
  @Override
     public void start() {
         //추가 구현
